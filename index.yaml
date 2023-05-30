@@ -3,9 +3,9 @@ entries:
   microservice-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-30T14:34:18.621665-04:00"
+    created: "2023-05-30T17:40:56.41322-04:00"
     description: A Helm chart for Kubernetes
-    digest: 204bb18fa761cfe7b0dfacfe6d7f1ffee16b2fc8fd0a91e01b02cf6fbe813245
+    digest: 35cbe5cd89a819174e1f9bacec454191ee1c31aef534470a3890460d3e5a75de
     name: microservice-chart
     type: application
     urls:
@@ -13,8 +13,35 @@ entries:
     version: 0.1.0
   wiremock:
   - apiVersion: v1
+    appVersion: 2.35.0.0
+    created: "2023-05-30T17:40:56.414657-04:00"
+    description: A Helm chart for WireMock deployment on Kubernetes
+    digest: fb83066e83dd9f6a24178d41fee96950501d47e21db74770ac7d6bded210e5bb
+    home: https://wiremock.org
+    icon: https://wiremock.org/images/logos/wiremock/logo_square.svg
+    keywords:
+    - wiremock
+    - api
+    - openapi
+    - api-testing
+    - rest-api
+    - api-mocking
+    maintainers:
+    - name: gitkent
+      url: https://github.com/gitkent
+    - name: oleg-nenashev
+      url: https://github.com/oleg-nenashev
+    name: wiremock
+    sources:
+    - https://github.com/wiremock/helm-charts
+    - https://github.com/wiremock/wiremock-docker
+    - https://github.com/wiremock/wiremock
+    urls:
+    - https://nagendrasidgs.github.io/sidgs-helm-charts/wiremock-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
     appVersion: 2.32.0.2
-    created: "2023-05-30T14:34:18.622184-04:00"
+    created: "2023-05-30T17:40:56.413602-04:00"
     description: A Helm chart for WireMock deployment on Kubernetes
     digest: f4aea3c90644841fdfd7e5ca8fb5dacc62ae71a32aace571b76f67ee93ac85b8
     home: https://wiremock.org
@@ -39,4 +66,4 @@ entries:
     urls:
     - https://nagendrasidgs.github.io/sidgs-helm-charts/wiremock-0.1.4.tgz
     version: 0.1.4
-generated: "2023-05-30T14:34:18.621049-04:00"
+generated: "2023-05-30T17:40:56.41273-04:00"
