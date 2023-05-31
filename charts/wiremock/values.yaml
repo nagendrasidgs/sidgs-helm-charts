@@ -58,3 +58,5 @@ tolerations: []
 affinity: {}
 
 scheme: "HTTP"
+
+configDir: ./mappings
