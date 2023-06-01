@@ -7,6 +7,7 @@ metadata:
     helm.sh/chart: {{ include "wiremock.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
+    valuesHash: {{ include "wiremock.valuesHash" . }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:

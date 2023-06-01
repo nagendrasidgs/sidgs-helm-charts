@@ -59,4 +59,7 @@ affinity: {}
 
 scheme: "HTTP"
 
-configDir: ./mappings
+filesPath: "mappings"
+
+#mapping:
+#  data:
