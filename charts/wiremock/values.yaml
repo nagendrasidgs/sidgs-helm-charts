@@ -58,3 +58,8 @@ tolerations: []
 affinity: {}
 
 scheme: "HTTP"
+
+filesPath: "mappings"
+
+#mapping:
+#  data:

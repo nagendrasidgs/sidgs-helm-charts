@@ -9,9 +9,7 @@ metadata:
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 data:
-  {{- $files := .Files }}
-  {{- range $key, $value := .Files }}
-  {{- if hasPrefix "mappings/" $key }} {{/* only when in mappings/ */}}
-  {{ $key | trimPrefix "mappings/" }}: {{ $files.Get $key | quote }} {{/* adapt $key as desired */}}
-  {{- end }}
+{{- range $path, $bytes := .Files.Glob (printf "%s/*.json" .Values.filesPath)}}
+    {{ $name := base $path }}
+    {{- printf "%s" $name}}: {{ $.Files.Get $path |quote}}
   {{- end }}
