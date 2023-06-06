@@ -1,7 +1,11 @@
 {
   "request": {
       "method": "POST",
-      "url": "/v1/hello"
+      "url": "/v1/hello",
+      "headers": {
+        "Content-Type":"application/json",
+        "ConsumerId": "yyhdfhghsdgf847587jhgjdg"
+      }
   },
   "response":{
     "status":200,

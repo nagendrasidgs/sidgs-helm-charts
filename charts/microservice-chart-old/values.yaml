@@ -71,9 +71,9 @@ resources:
 autoscaling:
   enabled: true
   minReplicas: 1
-  maxReplicas: 4
+  maxReplicas: 10
   targetCPUUtilizationPercentage: 70
-  targetMemoryUtilizationPercentage: 95
+  targetMemoryUtilizationPercentage: 70
 
 nodeSelector: {}
 
@@ -92,9 +92,9 @@ readinessProbe: {}
 container:
   port: 80
 
-#config:
-#   TEST_ME : "true"
-#   test: one
+config:  
+   TEST_ME : "true"
+   test: one
 
 global:
   config: {}

@@ -3,9 +3,19 @@ entries:
   microservice-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-01T11:28:36.682707-04:00"
+    created: "2023-06-06T15:02:42.610552-04:00"
     description: A Helm chart for Kubernetes
-    digest: 678ced3724f79caef8fc04191f26eceb18899b0ac3851682c7da40e3667a874d
+    digest: c70f52fa07f42cc231f2cb97e40a12f23761cd38db860080e05477dc880d7663
+    name: microservice-chart
+    type: application
+    urls:
+    - https://nagendrasidgs.github.io/sidgs-helm-charts/microservice-chart-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-06T15:02:42.609906-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 63b4d6a914d060fe490b54248a1e05de70753ea00ae7efc83aea5e46e60a77ea
     name: microservice-chart
     type: application
     urls:
@@ -14,9 +24,9 @@ entries:
   wiremock:
   - apiVersion: v1
     appVersion: 2.35.0.0
-    created: "2023-06-01T11:28:36.685271-04:00"
+    created: "2023-06-06T15:02:42.613241-04:00"
     description: A Helm chart for WireMock deployment on Kubernetes
-    digest: b6bf33e6644a3ea5b1dcc4caa73de262d542d5bd867df1eb67a81e26ac266ff0
+    digest: 6eafc041c2de5242fcf4c9ca42288c1fd10d95e4f5b04c4d383a1348b5cddd99
     home: https://wiremock.org
     icon: https://wiremock.org/images/logos/wiremock/logo_square.svg
     keywords:
@@ -41,7 +51,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: 2.35.0.0
-    created: "2023-06-01T11:28:36.684634-04:00"
+    created: "2023-06-06T15:02:42.612533-04:00"
     description: A Helm chart for WireMock deployment on Kubernetes
     digest: 964ea5cb7f6e0752dcced053f7fea979cf2708ee4fb499ddf2f9edaf3fecd38f
     home: https://wiremock.org
@@ -68,7 +78,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: 2.35.0.0
-    created: "2023-06-01T11:28:36.683978-04:00"
+    created: "2023-06-06T15:02:42.61189-04:00"
     description: A Helm chart for WireMock deployment on Kubernetes
     digest: fb83066e83dd9f6a24178d41fee96950501d47e21db74770ac7d6bded210e5bb
     home: https://wiremock.org
@@ -95,7 +105,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: 2.32.0.2
-    created: "2023-06-01T11:28:36.683348-04:00"
+    created: "2023-06-06T15:02:42.611237-04:00"
     description: A Helm chart for WireMock deployment on Kubernetes
     digest: f4aea3c90644841fdfd7e5ca8fb5dacc62ae71a32aace571b76f67ee93ac85b8
     home: https://wiremock.org
@@ -120,4 +130,4 @@ entries:
     urls:
     - https://nagendrasidgs.github.io/sidgs-helm-charts/wiremock-0.1.4.tgz
     version: 0.1.4
-generated: "2023-06-01T11:28:36.681858-04:00"
+generated: "2023-06-06T15:02:42.609098-04:00"
