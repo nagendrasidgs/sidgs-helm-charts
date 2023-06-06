@@ -59,7 +59,10 @@ affinity: {}
 
 scheme: "HTTP"
 
-filesPath: "mappings"
-
+#filesPath: "mappings"
+#filesPath: "/repo/source/rev/application-namespace-config/namespaces/acm-demo-ns1/deployment-manifests/wiremock/mappings"
+#filepath: "/Users/nagendrakumarbuddhala/Workstation/kubernetes/gitlab_repo/acm-ns-unstructured/application-namespace-config/namespaces/acm-demo-ns1/deployment-manifests/wiremock/mappings"
 #mapping:
-#  data:
+configmap:
+  mapping_1.json: "{\n  \"request\": {\n      \"method\": \"POST\",\n      \"url\": \"/v1/hello\",\n      \"headers\": {\n        \"Content-Type\":\"application/json\",\n        \"ConsumerId\": \"yyhdfhghsdgf847587jhgjdg\"\n      }\n  },\n  \"response\":{\n    \"status\":200,\n    \"bodyFileName\":\"responses/response_1.json\",\n    \"headers\":{\n       \"Content-Type\":\"application/json\"\n    }\n }\n}"
+  mapping_2.json: "{\n  \"request\": {\n      \"method\": \"POST\",\n      \"url\": \"/v1/test\"\n  },\n  \"response\":{\n    \"status\":200,\n    \"bodyFileName\":\"responses/response_1.json\",\n    \"headers\":{\n       \"Content-Type\":\"application/json\"\n    }\n }\n}\n"
